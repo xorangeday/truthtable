@@ -115,8 +115,8 @@
                     ElseIf stringval(2) = "v" Then
                         TextBox4_1.Text = "T"
                         TextBox4_2.Text = "T"
-                        TextBox4_3.Text = "T"
-                        TextBox4_4.Text = "F"
+                        TextBox4_3.Text = "F"
+                        TextBox4_4.Text = "T"
                     End If
                 End If
                 Label5.Text = stringval(4)
