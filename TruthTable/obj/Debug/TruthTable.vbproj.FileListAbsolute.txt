@@ -1,0 +1,29 @@
+C:\Users\Watanabirb\Documents\Visual Studio 2012\Projects\TruthTable\TruthTable\bin\Debug\TruthTable.exe.config
+C:\Users\Watanabirb\Documents\Visual Studio 2012\Projects\TruthTable\TruthTable\bin\Debug\TruthTable.exe
+C:\Users\Watanabirb\Documents\Visual Studio 2012\Projects\TruthTable\TruthTable\bin\Debug\TruthTable.pdb
+C:\Users\Watanabirb\Documents\Visual Studio 2012\Projects\TruthTable\TruthTable\bin\Debug\TruthTable.xml
+C:\Users\Watanabirb\Documents\Visual Studio 2012\Projects\TruthTable\TruthTable\obj\Debug\TruthTable.Resources.resources
+C:\Users\Watanabirb\Documents\Visual Studio 2012\Projects\TruthTable\TruthTable\obj\Debug\TruthTable.vbproj.GenerateResource.Cache
+C:\Users\Watanabirb\Documents\Visual Studio 2012\Projects\TruthTable\TruthTable\obj\Debug\TruthTable.exe
+C:\Users\Watanabirb\Documents\Visual Studio 2012\Projects\TruthTable\TruthTable\obj\Debug\TruthTable.xml
+C:\Users\Watanabirb\Documents\Visual Studio 2012\Projects\TruthTable\TruthTable\obj\Debug\TruthTable.pdb
+C:\Users\Watanabirb\Documents\Visual Studio 2012\Projects\TruthTable\TruthTable\obj\Debug\TruthTable.Fandm1.resources
+C:\Users\Watanabirb\Documents\Visual Studio 2012\Projects\TruthTable\TruthTable\bin\Debug\TruthTable.exe.manifest
+C:\Users\Watanabirb\Documents\Visual Studio 2012\Projects\TruthTable\TruthTable\bin\Debug\TruthTable.application
+C:\Users\Watanabirb\Documents\Visual Studio 2012\Projects\TruthTable\TruthTable\obj\Debug\TruthTable.exe.manifest
+C:\Users\Watanabirb\Documents\Visual Studio 2012\Projects\TruthTable\TruthTable\obj\Debug\TruthTable.application
+C:\Users\Asus\Downloads\TruthTable\TruthTable\bin\Debug\TruthTable.exe.config
+C:\Users\Asus\Downloads\TruthTable\TruthTable\bin\Debug\TruthTable.exe.manifest
+C:\Users\Asus\Downloads\TruthTable\TruthTable\bin\Debug\TruthTable.application
+C:\Users\Asus\Downloads\TruthTable\TruthTable\bin\Debug\TruthTable.exe
+C:\Users\Asus\Downloads\TruthTable\TruthTable\bin\Debug\TruthTable.pdb
+C:\Users\Asus\Downloads\TruthTable\TruthTable\bin\Debug\TruthTable.xml
+C:\Users\Asus\Downloads\TruthTable\TruthTable\obj\Debug\TruthTable.vbprojAssemblyReference.cache
+C:\Users\Asus\Downloads\TruthTable\TruthTable\obj\Debug\TruthTable.Fandm1.resources
+C:\Users\Asus\Downloads\TruthTable\TruthTable\obj\Debug\TruthTable.Resources.resources
+C:\Users\Asus\Downloads\TruthTable\TruthTable\obj\Debug\TruthTable.vbproj.GenerateResource.cache
+C:\Users\Asus\Downloads\TruthTable\TruthTable\obj\Debug\TruthTable.exe.manifest
+C:\Users\Asus\Downloads\TruthTable\TruthTable\obj\Debug\TruthTable.application
+C:\Users\Asus\Downloads\TruthTable\TruthTable\obj\Debug\TruthTable.exe
+C:\Users\Asus\Downloads\TruthTable\TruthTable\obj\Debug\TruthTable.xml
+C:\Users\Asus\Downloads\TruthTable\TruthTable\obj\Debug\TruthTable.pdb
