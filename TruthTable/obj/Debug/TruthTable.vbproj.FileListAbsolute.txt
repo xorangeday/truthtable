@@ -27,3 +27,33 @@ C:\Users\Asus\Downloads\TruthTable\TruthTable\obj\Debug\TruthTable.application
 C:\Users\Asus\Downloads\TruthTable\TruthTable\obj\Debug\TruthTable.exe
 C:\Users\Asus\Downloads\TruthTable\TruthTable\obj\Debug\TruthTable.xml
 C:\Users\Asus\Downloads\TruthTable\TruthTable\obj\Debug\TruthTable.pdb
+C:\Users\hp\Downloads\truthtable-master\truthtable-master\TruthTable\bin\Debug\TruthTable.exe.config
+C:\Users\hp\Downloads\truthtable-master\truthtable-master\TruthTable\bin\Debug\TruthTable.exe.manifest
+C:\Users\hp\Downloads\truthtable-master\truthtable-master\TruthTable\bin\Debug\TruthTable.application
+C:\Users\hp\Downloads\truthtable-master\truthtable-master\TruthTable\bin\Debug\TruthTable.exe
+C:\Users\hp\Downloads\truthtable-master\truthtable-master\TruthTable\bin\Debug\TruthTable.pdb
+C:\Users\hp\Downloads\truthtable-master\truthtable-master\TruthTable\bin\Debug\TruthTable.xml
+C:\Users\hp\Downloads\truthtable-master\truthtable-master\TruthTable\obj\Debug\TruthTable.vbprojAssemblyReference.cache
+C:\Users\hp\Downloads\truthtable-master\truthtable-master\TruthTable\obj\Debug\TruthTable.Fandm1.resources
+C:\Users\hp\Downloads\truthtable-master\truthtable-master\TruthTable\obj\Debug\TruthTable.Resources.resources
+C:\Users\hp\Downloads\truthtable-master\truthtable-master\TruthTable\obj\Debug\TruthTable.vbproj.GenerateResource.cache
+C:\Users\hp\Downloads\truthtable-master\truthtable-master\TruthTable\obj\Debug\TruthTable.exe.manifest
+C:\Users\hp\Downloads\truthtable-master\truthtable-master\TruthTable\obj\Debug\TruthTable.application
+C:\Users\hp\Downloads\truthtable-master\truthtable-master\TruthTable\obj\Debug\TruthTable.exe
+C:\Users\hp\Downloads\truthtable-master\truthtable-master\TruthTable\obj\Debug\TruthTable.xml
+C:\Users\hp\Downloads\truthtable-master\truthtable-master\TruthTable\obj\Debug\TruthTable.pdb
+C:\Users\Asus\Downloads\truthtable-master (edited)\truthtable-master\TruthTable\bin\Debug\TruthTable.exe.config
+C:\Users\Asus\Downloads\truthtable-master (edited)\truthtable-master\TruthTable\bin\Debug\TruthTable.exe.manifest
+C:\Users\Asus\Downloads\truthtable-master (edited)\truthtable-master\TruthTable\bin\Debug\TruthTable.application
+C:\Users\Asus\Downloads\truthtable-master (edited)\truthtable-master\TruthTable\bin\Debug\TruthTable.exe
+C:\Users\Asus\Downloads\truthtable-master (edited)\truthtable-master\TruthTable\bin\Debug\TruthTable.pdb
+C:\Users\Asus\Downloads\truthtable-master (edited)\truthtable-master\TruthTable\bin\Debug\TruthTable.xml
+C:\Users\Asus\Downloads\truthtable-master (edited)\truthtable-master\TruthTable\obj\Debug\TruthTable.vbprojAssemblyReference.cache
+C:\Users\Asus\Downloads\truthtable-master (edited)\truthtable-master\TruthTable\obj\Debug\TruthTable.Fandm1.resources
+C:\Users\Asus\Downloads\truthtable-master (edited)\truthtable-master\TruthTable\obj\Debug\TruthTable.Resources.resources
+C:\Users\Asus\Downloads\truthtable-master (edited)\truthtable-master\TruthTable\obj\Debug\TruthTable.vbproj.GenerateResource.cache
+C:\Users\Asus\Downloads\truthtable-master (edited)\truthtable-master\TruthTable\obj\Debug\TruthTable.exe.manifest
+C:\Users\Asus\Downloads\truthtable-master (edited)\truthtable-master\TruthTable\obj\Debug\TruthTable.application
+C:\Users\Asus\Downloads\truthtable-master (edited)\truthtable-master\TruthTable\obj\Debug\TruthTable.exe
+C:\Users\Asus\Downloads\truthtable-master (edited)\truthtable-master\TruthTable\obj\Debug\TruthTable.xml
+C:\Users\Asus\Downloads\truthtable-master (edited)\truthtable-master\TruthTable\obj\Debug\TruthTable.pdb

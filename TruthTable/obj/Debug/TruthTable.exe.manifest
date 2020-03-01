@@ -42,24 +42,24 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TruthTable.exe" size="46080">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TruthTable.exe" size="49664">
       <assemblyIdentity name="TruthTable" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fyiDIcSlSZqt39qQKAGZB3I6xrdgPSND1LXMs6a52C0=</dsig:DigestValue>
+        <dsig:DigestValue>6r4YPYCHYKMbzvoJxsLowp619m2hjXxvDb8eZsiA51A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="TruthTable.exe.config" size="186">
+  <file name="TruthTable.exe.config" size="181">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+      <dsig:DigestValue>HcmCMwiql3br8Fmt6LCgG63bfyQCl0lkdoWbJD0n1BY=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
