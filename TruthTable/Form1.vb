@@ -161,7 +161,7 @@
         ElseIf vctr = 3 Then
             Dim nctr As Integer = CountCharacter(Label1.Text, "~")
             If nctr = 1 Then
-                If Label1.Text.IndexOf("~") = 1 Then
+                If Label1.Text.IndexOf("~") = 1 Then '1st variable negation
                     Label2.Text = stringval(2)
                     Label3.Text = stringval(4)
                     Label9.Text = stringval(6)
@@ -182,7 +182,7 @@
                             SetFifthCol("T", "T", "T", "F", "T", "T", "T", "T")
                         End If
                     End If
-                ElseIf Label1.Text.IndexOf("~") = 3 Then
+                ElseIf Label1.Text.IndexOf("~") = 3 Then '2nd variable negation
                     Label2.Text = stringval(1)
                     Label3.Text = stringval(4)
                     Label9.Text = stringval(6)
@@ -203,7 +203,7 @@
                             SetFifthCol("T", "T", "T", "T", "T", "T", "F", "T")
                         End If
                     End If
-                Else
+                Else '3rd variable negation
                     Label2.Text = stringval(1)
                     Label3.Text = stringval(3)
                     Label9.Text = stringval(6)
@@ -292,7 +292,7 @@
                         End If
                     End If
                 End If
-            ElseIf nctr = 3 Then
+            ElseIf nctr = 3 Then 'Three negation
                 Label2.Text = stringval(2)
                 Label3.Text = stringval(5)
                 Label9.Text = stringval(8)
@@ -313,7 +313,11 @@
                         SetFifthCol("F", "T", "T", "T", "T", "T", "T", "T")
                     End If
                 End If
-            Else
+            Else 'No negation
+                If Label1.Text.IndexOf("(") <> 0 Then
+                    stringval = stringval.Replace("(", "")
+                    stringval = stringval.Replace(")", "")
+                End If
                 Label2.Text = stringval(1)
                 Label3.Text = stringval(3)
                 Label9.Text = stringval(5)
