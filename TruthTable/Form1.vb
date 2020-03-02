@@ -69,7 +69,7 @@
 
         If vctr = 2 Then
             Dim nctr As Integer = CountCharacter(Label1.Text, "~")
-
+            stringval = stringval.Remove("()")
             If nctr = 1 Then
                 PanelTwoVarFourthCol.Visible = True
                 If Label1.Text.IndexOf("~") = 1 Then
@@ -379,5 +379,34 @@
         TB5_6.Text = sixth
         TB5_7.Text = seventh
         TB5_8.Text = eighth
+    End Sub
+
+    Private Sub BtnOpenPar_Click(sender As Object, e As EventArgs) Handles BtnOpenPar.Click
+        If (Label1.Text.Substring(Label1.Text.Length - 1) <> "^" And Label1.Text.Substring(Label1.Text.Length - 1) <> "v" And Label1.Text.Substring(Label1.Text.Length - 1) <> "(") Then
+            ctr += 1
+            If (ctr > 20) Then
+
+            Else
+                Label1.Text += "("
+            End If
+        End If
+    End Sub
+
+    Private Sub BtnClosePar_Click(sender As Object, e As EventArgs) Handles BtnClosePar.Click
+        If (Label1.Text.Substring(Label1.Text.Length - 1) <> "^" And Label1.Text.Substring(Label1.Text.Length - 1) <> "v" And Label1.Text.Substring(Label1.Text.Length - 1) <> "(" And Label1.Text.Substring(Label1.Text.Length - 1) <> ")" And CountCharacter(Label1.Text, "(") = 1) Then
+            ctr += 1
+            If (ctr > 20) Then
+
+            Else
+                Label1.Text += ")"
+            End If
+        End If
+    End Sub
+
+    Private Sub BtnDelete_Click(sender As Object, e As EventArgs) Handles BtnDelete.Click
+        If (ctr <> 0) Then
+            Label1.Text = Label1.Text.Remove(Label1.Text.Length - 1)
+            ctr -= 1
+        End If
     End Sub
 End Class

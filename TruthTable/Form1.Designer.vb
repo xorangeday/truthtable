@@ -79,16 +79,24 @@ Partial Class Fandm1
         Me.Label9 = New System.Windows.Forms.Label()
         Me.TextBox44 = New System.Windows.Forms.TextBox()
         Me.TextBox43 = New System.Windows.Forms.TextBox()
+        Me.TB5_1 = New System.Windows.Forms.TextBox()
         Me.TB4_1 = New System.Windows.Forms.TextBox()
         Me.TextBox41 = New System.Windows.Forms.TextBox()
+        Me.TB5_8 = New System.Windows.Forms.TextBox()
         Me.TextBox40 = New System.Windows.Forms.TextBox()
+        Me.TB5_2 = New System.Windows.Forms.TextBox()
         Me.TB4_2 = New System.Windows.Forms.TextBox()
         Me.TextBox38 = New System.Windows.Forms.TextBox()
         Me.TextBox37 = New System.Windows.Forms.TextBox()
+        Me.TB5_3 = New System.Windows.Forms.TextBox()
         Me.TB4_3 = New System.Windows.Forms.TextBox()
         Me.TextBox35 = New System.Windows.Forms.TextBox()
         Me.TextBox34 = New System.Windows.Forms.TextBox()
+        Me.TB5_4 = New System.Windows.Forms.TextBox()
+        Me.TB5_7 = New System.Windows.Forms.TextBox()
         Me.TB4_4 = New System.Windows.Forms.TextBox()
+        Me.TB5_5 = New System.Windows.Forms.TextBox()
+        Me.TB5_6 = New System.Windows.Forms.TextBox()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.PanelTwoVar = New System.Windows.Forms.Panel()
         Me.PanelTwoFifthColumn = New System.Windows.Forms.Panel()
@@ -97,14 +105,9 @@ Partial Class Fandm1
         Me.TextBox5_1 = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.TextBox5_3 = New System.Windows.Forms.TextBox()
-        Me.TB5_6 = New System.Windows.Forms.TextBox()
-        Me.TB5_5 = New System.Windows.Forms.TextBox()
-        Me.TB5_7 = New System.Windows.Forms.TextBox()
-        Me.TB5_4 = New System.Windows.Forms.TextBox()
-        Me.TB5_3 = New System.Windows.Forms.TextBox()
-        Me.TB5_2 = New System.Windows.Forms.TextBox()
-        Me.TB5_8 = New System.Windows.Forms.TextBox()
-        Me.TB5_1 = New System.Windows.Forms.TextBox()
+        Me.BtnOpenPar = New System.Windows.Forms.Button()
+        Me.BtnClosePar = New System.Windows.Forms.Button()
+        Me.BtnDelete = New System.Windows.Forms.Button()
         Me.PanelTwoVarFourthCol.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.PanelTwoVar.SuspendLayout()
@@ -178,7 +181,7 @@ Partial Class Fandm1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(266, 12)
+        Me.Label1.Location = New System.Drawing.Point(363, 42)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(37, 55)
         Me.Label1.TabIndex = 15
@@ -701,6 +704,15 @@ Partial Class Fandm1
         Me.TextBox43.Text = "T"
         Me.TextBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB5_1
+        '
+        Me.TB5_1.Location = New System.Drawing.Point(496, 47)
+        Me.TB5_1.Name = "TB5_1"
+        Me.TB5_1.ReadOnly = True
+        Me.TB5_1.Size = New System.Drawing.Size(100, 20)
+        Me.TB5_1.TabIndex = 19
+        Me.TB5_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TB4_1
         '
         Me.TB4_1.Location = New System.Drawing.Point(379, 47)
@@ -720,6 +732,15 @@ Partial Class Fandm1
         Me.TextBox41.Text = "T"
         Me.TextBox41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB5_8
+        '
+        Me.TB5_8.Location = New System.Drawing.Point(496, 229)
+        Me.TB5_8.Name = "TB5_8"
+        Me.TB5_8.ReadOnly = True
+        Me.TB5_8.Size = New System.Drawing.Size(100, 20)
+        Me.TB5_8.TabIndex = 47
+        Me.TB5_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TextBox40
         '
         Me.TextBox40.Location = New System.Drawing.Point(253, 73)
@@ -729,6 +750,15 @@ Partial Class Fandm1
         Me.TextBox40.TabIndex = 21
         Me.TextBox40.Text = "F"
         Me.TextBox40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TB5_2
+        '
+        Me.TB5_2.Location = New System.Drawing.Point(496, 73)
+        Me.TB5_2.Name = "TB5_2"
+        Me.TB5_2.ReadOnly = True
+        Me.TB5_2.Size = New System.Drawing.Size(100, 20)
+        Me.TB5_2.TabIndex = 23
+        Me.TB5_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TB4_2
         '
@@ -759,6 +789,15 @@ Partial Class Fandm1
         Me.TextBox37.Text = "T"
         Me.TextBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB5_3
+        '
+        Me.TB5_3.Location = New System.Drawing.Point(496, 99)
+        Me.TB5_3.Name = "TB5_3"
+        Me.TB5_3.ReadOnly = True
+        Me.TB5_3.Size = New System.Drawing.Size(100, 20)
+        Me.TB5_3.TabIndex = 27
+        Me.TB5_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TB4_3
         '
         Me.TB4_3.Location = New System.Drawing.Point(379, 99)
@@ -788,6 +827,24 @@ Partial Class Fandm1
         Me.TextBox34.Text = "F"
         Me.TextBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB5_4
+        '
+        Me.TB5_4.Location = New System.Drawing.Point(496, 125)
+        Me.TB5_4.Name = "TB5_4"
+        Me.TB5_4.ReadOnly = True
+        Me.TB5_4.Size = New System.Drawing.Size(100, 20)
+        Me.TB5_4.TabIndex = 31
+        Me.TB5_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TB5_7
+        '
+        Me.TB5_7.Location = New System.Drawing.Point(496, 203)
+        Me.TB5_7.Name = "TB5_7"
+        Me.TB5_7.ReadOnly = True
+        Me.TB5_7.Size = New System.Drawing.Size(100, 20)
+        Me.TB5_7.TabIndex = 43
+        Me.TB5_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TB4_4
         '
         Me.TB4_4.Location = New System.Drawing.Point(379, 125)
@@ -796,6 +853,24 @@ Partial Class Fandm1
         Me.TB4_4.Size = New System.Drawing.Size(100, 20)
         Me.TB4_4.TabIndex = 31
         Me.TB4_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TB5_5
+        '
+        Me.TB5_5.Location = New System.Drawing.Point(496, 151)
+        Me.TB5_5.Name = "TB5_5"
+        Me.TB5_5.ReadOnly = True
+        Me.TB5_5.Size = New System.Drawing.Size(100, 20)
+        Me.TB5_5.TabIndex = 35
+        Me.TB5_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TB5_6
+        '
+        Me.TB5_6.Location = New System.Drawing.Point(496, 177)
+        Me.TB5_6.Name = "TB5_6"
+        Me.TB5_6.ReadOnly = True
+        Me.TB5_6.Size = New System.Drawing.Size(100, 20)
+        Me.TB5_6.TabIndex = 39
+        Me.TB5_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Button8
         '
@@ -889,77 +964,32 @@ Partial Class Fandm1
         Me.TextBox5_3.TabIndex = 27
         Me.TextBox5_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TB5_6
+        'BtnOpenPar
         '
-        Me.TB5_6.Location = New System.Drawing.Point(496, 177)
-        Me.TB5_6.Name = "TB5_6"
-        Me.TB5_6.ReadOnly = True
-        Me.TB5_6.Size = New System.Drawing.Size(100, 20)
-        Me.TB5_6.TabIndex = 39
-        Me.TB5_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.BtnOpenPar.Location = New System.Drawing.Point(23, 108)
+        Me.BtnOpenPar.Name = "BtnOpenPar"
+        Me.BtnOpenPar.Size = New System.Drawing.Size(75, 42)
+        Me.BtnOpenPar.TabIndex = 12
+        Me.BtnOpenPar.Text = "("
+        Me.BtnOpenPar.UseVisualStyleBackColor = True
         '
-        'TB5_5
+        'BtnClosePar
         '
-        Me.TB5_5.Location = New System.Drawing.Point(496, 151)
-        Me.TB5_5.Name = "TB5_5"
-        Me.TB5_5.ReadOnly = True
-        Me.TB5_5.Size = New System.Drawing.Size(100, 20)
-        Me.TB5_5.TabIndex = 35
-        Me.TB5_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.BtnClosePar.Location = New System.Drawing.Point(104, 108)
+        Me.BtnClosePar.Name = "BtnClosePar"
+        Me.BtnClosePar.Size = New System.Drawing.Size(75, 42)
+        Me.BtnClosePar.TabIndex = 13
+        Me.BtnClosePar.Text = ")"
+        Me.BtnClosePar.UseVisualStyleBackColor = True
         '
-        'TB5_7
+        'BtnDelete
         '
-        Me.TB5_7.Location = New System.Drawing.Point(496, 203)
-        Me.TB5_7.Name = "TB5_7"
-        Me.TB5_7.ReadOnly = True
-        Me.TB5_7.Size = New System.Drawing.Size(100, 20)
-        Me.TB5_7.TabIndex = 43
-        Me.TB5_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TB5_4
-        '
-        Me.TB5_4.Location = New System.Drawing.Point(496, 125)
-        Me.TB5_4.Name = "TB5_4"
-        Me.TB5_4.ReadOnly = True
-        Me.TB5_4.Size = New System.Drawing.Size(100, 20)
-        Me.TB5_4.TabIndex = 31
-        Me.TB5_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TB5_3
-        '
-        Me.TB5_3.Location = New System.Drawing.Point(496, 99)
-        Me.TB5_3.Name = "TB5_3"
-        Me.TB5_3.ReadOnly = True
-        Me.TB5_3.Size = New System.Drawing.Size(100, 20)
-        Me.TB5_3.TabIndex = 27
-        Me.TB5_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TB5_2
-        '
-        Me.TB5_2.Location = New System.Drawing.Point(496, 73)
-        Me.TB5_2.Name = "TB5_2"
-        Me.TB5_2.ReadOnly = True
-        Me.TB5_2.Size = New System.Drawing.Size(100, 20)
-        Me.TB5_2.TabIndex = 23
-        Me.TB5_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TB5_8
-        '
-        Me.TB5_8.Location = New System.Drawing.Point(496, 229)
-        Me.TB5_8.Name = "TB5_8"
-        Me.TB5_8.ReadOnly = True
-        Me.TB5_8.Size = New System.Drawing.Size(100, 20)
-        Me.TB5_8.TabIndex = 47
-        Me.TB5_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TB5_1
-        '
-        Me.TB5_1.Location = New System.Drawing.Point(496, 47)
-        Me.TB5_1.Name = "TB5_1"
-        Me.TB5_1.ReadOnly = True
-        Me.TB5_1.Size = New System.Drawing.Size(100, 20)
-        Me.TB5_1.TabIndex = 19
-        Me.TB5_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.BtnDelete.Location = New System.Drawing.Point(266, 12)
+        Me.BtnDelete.Name = "BtnDelete"
+        Me.BtnDelete.Size = New System.Drawing.Size(75, 42)
+        Me.BtnDelete.TabIndex = 8
+        Me.BtnDelete.Text = "←"
+        Me.BtnDelete.UseVisualStyleBackColor = True
         '
         'Fandm1
         '
@@ -971,11 +1001,14 @@ Partial Class Fandm1
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button7)
+        Me.Controls.Add(Me.BtnClosePar)
         Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.BtnOpenPar)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.BtnDelete)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Fandm1"
         Me.Text = "Truth Table Generator"
@@ -1074,4 +1107,7 @@ Partial Class Fandm1
     Friend WithEvents TB5_7 As TextBox
     Friend WithEvents TB5_5 As TextBox
     Friend WithEvents TB5_6 As TextBox
+    Friend WithEvents BtnOpenPar As Button
+    Friend WithEvents BtnClosePar As Button
+    Friend WithEvents BtnDelete As Button
 End Class
