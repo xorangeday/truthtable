@@ -74,28 +74,55 @@ Partial Class Fandm1
         Me.TextBox4_3 = New System.Windows.Forms.TextBox()
         Me.TextBox4_1 = New System.Windows.Forms.TextBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.TextBox44 = New System.Windows.Forms.TextBox()
+        Me.TB8_1 = New System.Windows.Forms.TextBox()
         Me.TextBox43 = New System.Windows.Forms.TextBox()
+        Me.TB7_1 = New System.Windows.Forms.TextBox()
+        Me.TB6_1 = New System.Windows.Forms.TextBox()
         Me.TB5_1 = New System.Windows.Forms.TextBox()
         Me.TB4_1 = New System.Windows.Forms.TextBox()
+        Me.TB8_8 = New System.Windows.Forms.TextBox()
+        Me.TB7_8 = New System.Windows.Forms.TextBox()
+        Me.TB6_8 = New System.Windows.Forms.TextBox()
         Me.TextBox41 = New System.Windows.Forms.TextBox()
+        Me.TB8_2 = New System.Windows.Forms.TextBox()
         Me.TB5_8 = New System.Windows.Forms.TextBox()
+        Me.TB7_2 = New System.Windows.Forms.TextBox()
+        Me.TB6_2 = New System.Windows.Forms.TextBox()
         Me.TextBox40 = New System.Windows.Forms.TextBox()
         Me.TB5_2 = New System.Windows.Forms.TextBox()
         Me.TB4_2 = New System.Windows.Forms.TextBox()
+        Me.TB8_3 = New System.Windows.Forms.TextBox()
         Me.TextBox38 = New System.Windows.Forms.TextBox()
+        Me.TB7_3 = New System.Windows.Forms.TextBox()
+        Me.TB6_3 = New System.Windows.Forms.TextBox()
         Me.TextBox37 = New System.Windows.Forms.TextBox()
         Me.TB5_3 = New System.Windows.Forms.TextBox()
         Me.TB4_3 = New System.Windows.Forms.TextBox()
+        Me.TB8_4 = New System.Windows.Forms.TextBox()
         Me.TextBox35 = New System.Windows.Forms.TextBox()
+        Me.TB7_4 = New System.Windows.Forms.TextBox()
+        Me.TB6_4 = New System.Windows.Forms.TextBox()
+        Me.TB8_7 = New System.Windows.Forms.TextBox()
         Me.TextBox34 = New System.Windows.Forms.TextBox()
+        Me.TB7_7 = New System.Windows.Forms.TextBox()
         Me.TB5_4 = New System.Windows.Forms.TextBox()
+        Me.TB6_7 = New System.Windows.Forms.TextBox()
+        Me.TB8_5 = New System.Windows.Forms.TextBox()
+        Me.TB7_5 = New System.Windows.Forms.TextBox()
         Me.TB5_7 = New System.Windows.Forms.TextBox()
+        Me.TB6_5 = New System.Windows.Forms.TextBox()
         Me.TB4_4 = New System.Windows.Forms.TextBox()
         Me.TB5_5 = New System.Windows.Forms.TextBox()
+        Me.TB8_6 = New System.Windows.Forms.TextBox()
+        Me.TB7_6 = New System.Windows.Forms.TextBox()
+        Me.TB6_6 = New System.Windows.Forms.TextBox()
         Me.TB5_6 = New System.Windows.Forms.TextBox()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.PanelTwoVar = New System.Windows.Forms.Panel()
@@ -108,10 +135,16 @@ Partial Class Fandm1
         Me.BtnOpenPar = New System.Windows.Forms.Button()
         Me.BtnClosePar = New System.Windows.Forms.Button()
         Me.BtnDelete = New System.Windows.Forms.Button()
+        Me.PanelThreeVarSixthCol = New System.Windows.Forms.Panel()
+        Me.PanelThreeVarSeventhCol = New System.Windows.Forms.Panel()
+        Me.PanelThreeVarEigthCol = New System.Windows.Forms.Panel()
         Me.PanelTwoVarFourthCol.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.PanelTwoVar.SuspendLayout()
         Me.PanelTwoFifthColumn.SuspendLayout()
+        Me.PanelThreeVarSixthCol.SuspendLayout()
+        Me.PanelThreeVarSeventhCol.SuspendLayout()
+        Me.PanelThreeVarEigthCol.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
@@ -212,7 +245,7 @@ Partial Class Fandm1
         Me.TextBox3.Location = New System.Drawing.Point(10, 47)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.ReadOnly = True
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox3.Size = New System.Drawing.Size(71, 20)
         Me.TextBox3.TabIndex = 18
         Me.TextBox3.Text = "T"
         Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -251,7 +284,7 @@ Partial Class Fandm1
         Me.TextBox7.Location = New System.Drawing.Point(10, 73)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.ReadOnly = True
-        Me.TextBox7.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox7.Size = New System.Drawing.Size(71, 20)
         Me.TextBox7.TabIndex = 22
         Me.TextBox7.Text = "T"
         Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -290,7 +323,7 @@ Partial Class Fandm1
         Me.TextBox11.Location = New System.Drawing.Point(10, 99)
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.ReadOnly = True
-        Me.TextBox11.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox11.Size = New System.Drawing.Size(71, 20)
         Me.TextBox11.TabIndex = 26
         Me.TextBox11.Text = "T"
         Me.TextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -329,7 +362,7 @@ Partial Class Fandm1
         Me.TextBox15.Location = New System.Drawing.Point(10, 125)
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.ReadOnly = True
-        Me.TextBox15.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox15.Size = New System.Drawing.Size(71, 20)
         Me.TextBox15.TabIndex = 30
         Me.TextBox15.Text = "T"
         Me.TextBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -345,20 +378,20 @@ Partial Class Fandm1
         '
         'TextBox17
         '
-        Me.TextBox17.Location = New System.Drawing.Point(132, 151)
+        Me.TextBox17.Location = New System.Drawing.Point(113, 151)
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.ReadOnly = True
-        Me.TextBox17.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox17.Size = New System.Drawing.Size(71, 20)
         Me.TextBox17.TabIndex = 32
         Me.TextBox17.Text = "F"
         Me.TextBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox18
         '
-        Me.TextBox18.Location = New System.Drawing.Point(253, 151)
+        Me.TextBox18.Location = New System.Drawing.Point(218, 151)
         Me.TextBox18.Name = "TextBox18"
         Me.TextBox18.ReadOnly = True
-        Me.TextBox18.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox18.Size = New System.Drawing.Size(71, 20)
         Me.TextBox18.TabIndex = 33
         Me.TextBox18.Text = "F"
         Me.TextBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -368,36 +401,36 @@ Partial Class Fandm1
         Me.TextBox19.Location = New System.Drawing.Point(10, 151)
         Me.TextBox19.Name = "TextBox19"
         Me.TextBox19.ReadOnly = True
-        Me.TextBox19.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox19.Size = New System.Drawing.Size(71, 20)
         Me.TextBox19.TabIndex = 34
         Me.TextBox19.Text = "F"
         Me.TextBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TB4_5
         '
-        Me.TB4_5.Location = New System.Drawing.Point(379, 151)
+        Me.TB4_5.Location = New System.Drawing.Point(320, 151)
         Me.TB4_5.Name = "TB4_5"
         Me.TB4_5.ReadOnly = True
-        Me.TB4_5.Size = New System.Drawing.Size(100, 20)
+        Me.TB4_5.Size = New System.Drawing.Size(71, 20)
         Me.TB4_5.TabIndex = 35
         Me.TB4_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox21
         '
-        Me.TextBox21.Location = New System.Drawing.Point(132, 177)
+        Me.TextBox21.Location = New System.Drawing.Point(113, 177)
         Me.TextBox21.Name = "TextBox21"
         Me.TextBox21.ReadOnly = True
-        Me.TextBox21.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox21.Size = New System.Drawing.Size(71, 20)
         Me.TextBox21.TabIndex = 36
         Me.TextBox21.Text = "F"
         Me.TextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox22
         '
-        Me.TextBox22.Location = New System.Drawing.Point(253, 177)
+        Me.TextBox22.Location = New System.Drawing.Point(218, 177)
         Me.TextBox22.Name = "TextBox22"
         Me.TextBox22.ReadOnly = True
-        Me.TextBox22.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox22.Size = New System.Drawing.Size(71, 20)
         Me.TextBox22.TabIndex = 37
         Me.TextBox22.Text = "T"
         Me.TextBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -407,36 +440,36 @@ Partial Class Fandm1
         Me.TextBox23.Location = New System.Drawing.Point(10, 177)
         Me.TextBox23.Name = "TextBox23"
         Me.TextBox23.ReadOnly = True
-        Me.TextBox23.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox23.Size = New System.Drawing.Size(71, 20)
         Me.TextBox23.TabIndex = 38
         Me.TextBox23.Text = "F"
         Me.TextBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TB4_6
         '
-        Me.TB4_6.Location = New System.Drawing.Point(379, 177)
+        Me.TB4_6.Location = New System.Drawing.Point(320, 177)
         Me.TB4_6.Name = "TB4_6"
         Me.TB4_6.ReadOnly = True
-        Me.TB4_6.Size = New System.Drawing.Size(100, 20)
+        Me.TB4_6.Size = New System.Drawing.Size(71, 20)
         Me.TB4_6.TabIndex = 39
         Me.TB4_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox25
         '
-        Me.TextBox25.Location = New System.Drawing.Point(132, 203)
+        Me.TextBox25.Location = New System.Drawing.Point(113, 203)
         Me.TextBox25.Name = "TextBox25"
         Me.TextBox25.ReadOnly = True
-        Me.TextBox25.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox25.Size = New System.Drawing.Size(71, 20)
         Me.TextBox25.TabIndex = 40
         Me.TextBox25.Text = "T"
         Me.TextBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox26
         '
-        Me.TextBox26.Location = New System.Drawing.Point(253, 203)
+        Me.TextBox26.Location = New System.Drawing.Point(218, 203)
         Me.TextBox26.Name = "TextBox26"
         Me.TextBox26.ReadOnly = True
-        Me.TextBox26.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox26.Size = New System.Drawing.Size(71, 20)
         Me.TextBox26.TabIndex = 41
         Me.TextBox26.Text = "F"
         Me.TextBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -446,36 +479,36 @@ Partial Class Fandm1
         Me.TextBox27.Location = New System.Drawing.Point(10, 203)
         Me.TextBox27.Name = "TextBox27"
         Me.TextBox27.ReadOnly = True
-        Me.TextBox27.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox27.Size = New System.Drawing.Size(71, 20)
         Me.TextBox27.TabIndex = 42
         Me.TextBox27.Text = "F"
         Me.TextBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TB4_7
         '
-        Me.TB4_7.Location = New System.Drawing.Point(379, 203)
+        Me.TB4_7.Location = New System.Drawing.Point(320, 203)
         Me.TB4_7.Name = "TB4_7"
         Me.TB4_7.ReadOnly = True
-        Me.TB4_7.Size = New System.Drawing.Size(100, 20)
+        Me.TB4_7.Size = New System.Drawing.Size(71, 20)
         Me.TB4_7.TabIndex = 43
         Me.TB4_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox29
         '
-        Me.TextBox29.Location = New System.Drawing.Point(132, 229)
+        Me.TextBox29.Location = New System.Drawing.Point(113, 229)
         Me.TextBox29.Name = "TextBox29"
         Me.TextBox29.ReadOnly = True
-        Me.TextBox29.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox29.Size = New System.Drawing.Size(71, 20)
         Me.TextBox29.TabIndex = 44
         Me.TextBox29.Text = "T"
         Me.TextBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox30
         '
-        Me.TextBox30.Location = New System.Drawing.Point(253, 229)
+        Me.TextBox30.Location = New System.Drawing.Point(218, 229)
         Me.TextBox30.Name = "TextBox30"
         Me.TextBox30.ReadOnly = True
-        Me.TextBox30.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox30.Size = New System.Drawing.Size(71, 20)
         Me.TextBox30.TabIndex = 45
         Me.TextBox30.Text = "T"
         Me.TextBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -485,37 +518,37 @@ Partial Class Fandm1
         Me.TextBox31.Location = New System.Drawing.Point(10, 229)
         Me.TextBox31.Name = "TextBox31"
         Me.TextBox31.ReadOnly = True
-        Me.TextBox31.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox31.Size = New System.Drawing.Size(71, 20)
         Me.TextBox31.TabIndex = 46
         Me.TextBox31.Text = "F"
         Me.TextBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TB4_8
         '
-        Me.TB4_8.Location = New System.Drawing.Point(379, 229)
+        Me.TB4_8.Location = New System.Drawing.Point(320, 229)
         Me.TB4_8.Name = "TB4_8"
         Me.TB4_8.ReadOnly = True
-        Me.TB4_8.Size = New System.Drawing.Size(100, 20)
+        Me.TB4_8.Size = New System.Drawing.Size(71, 20)
         Me.TB4_8.TabIndex = 47
         Me.TB4_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label2
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(50, 18)
+        Me.Label2.Location = New System.Drawing.Point(27, 22)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(39, 13)
         Me.Label2.TabIndex = 48
         Me.Label2.Text = "Label2"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label3
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(174, 18)
+        Me.Label3.Location = New System.Drawing.Point(131, 22)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(39, 13)
         Me.Label3.TabIndex = 49
         Me.Label3.Text = "Label3"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label4
         '
@@ -606,6 +639,9 @@ Partial Class Fandm1
         '
         'Panel2
         '
+        Me.Panel2.Controls.Add(Me.PanelThreeVarEigthCol)
+        Me.Panel2.Controls.Add(Me.PanelThreeVarSeventhCol)
+        Me.Panel2.Controls.Add(Me.PanelThreeVarSixthCol)
         Me.Panel2.Controls.Add(Me.Label11)
         Me.Panel2.Controls.Add(Me.Label10)
         Me.Panel2.Controls.Add(Me.Label9)
@@ -653,222 +689,465 @@ Partial Class Fandm1
         Me.Panel2.Controls.Add(Me.TB4_6)
         Me.Panel2.Location = New System.Drawing.Point(12, 156)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(622, 259)
+        Me.Panel2.Size = New System.Drawing.Size(797, 265)
         Me.Panel2.TabIndex = 54
         Me.Panel2.Visible = False
         '
+        'Label14
+        '
+        Me.Label14.Location = New System.Drawing.Point(3, 6)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(89, 13)
+        Me.Label14.TabIndex = 52
+        Me.Label14.Text = "Label14"
+        Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label13
+        '
+        Me.Label13.Location = New System.Drawing.Point(2, 7)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(90, 13)
+        Me.Label13.TabIndex = 52
+        Me.Label13.Text = "Label13"
+        Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label12
+        '
+        Me.Label12.Location = New System.Drawing.Point(-3, 5)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(95, 13)
+        Me.Label12.TabIndex = 52
+        Me.Label12.Text = "Label12"
+        Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Label11
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(520, 22)
+        Me.Label11.Location = New System.Drawing.Point(414, 22)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(45, 13)
+        Me.Label11.Size = New System.Drawing.Size(91, 13)
         Me.Label11.TabIndex = 52
         Me.Label11.Text = "Label11"
+        Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label10
         '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(404, 22)
+        Me.Label10.Location = New System.Drawing.Point(321, 22)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(45, 13)
+        Me.Label10.Size = New System.Drawing.Size(70, 13)
         Me.Label10.TabIndex = 51
         Me.Label10.Text = "Label10"
+        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label9
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(295, 20)
+        Me.Label9.Location = New System.Drawing.Point(235, 22)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(39, 13)
         Me.Label9.TabIndex = 50
         Me.Label9.Text = "Label9"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TextBox44
         '
-        Me.TextBox44.Location = New System.Drawing.Point(132, 47)
+        Me.TextBox44.Location = New System.Drawing.Point(113, 47)
         Me.TextBox44.Name = "TextBox44"
         Me.TextBox44.ReadOnly = True
-        Me.TextBox44.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox44.Size = New System.Drawing.Size(71, 20)
         Me.TextBox44.TabIndex = 16
         Me.TextBox44.Text = "T"
         Me.TextBox44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB8_1
+        '
+        Me.TB8_1.Location = New System.Drawing.Point(12, 31)
+        Me.TB8_1.Name = "TB8_1"
+        Me.TB8_1.ReadOnly = True
+        Me.TB8_1.Size = New System.Drawing.Size(71, 20)
+        Me.TB8_1.TabIndex = 19
+        Me.TB8_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TextBox43
         '
-        Me.TextBox43.Location = New System.Drawing.Point(253, 47)
+        Me.TextBox43.Location = New System.Drawing.Point(218, 47)
         Me.TextBox43.Name = "TextBox43"
         Me.TextBox43.ReadOnly = True
-        Me.TextBox43.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox43.Size = New System.Drawing.Size(71, 20)
         Me.TextBox43.TabIndex = 17
         Me.TextBox43.Text = "T"
         Me.TextBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB7_1
+        '
+        Me.TB7_1.Location = New System.Drawing.Point(11, 32)
+        Me.TB7_1.Name = "TB7_1"
+        Me.TB7_1.ReadOnly = True
+        Me.TB7_1.Size = New System.Drawing.Size(71, 20)
+        Me.TB7_1.TabIndex = 19
+        Me.TB7_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TB6_1
+        '
+        Me.TB6_1.Location = New System.Drawing.Point(10, 30)
+        Me.TB6_1.Name = "TB6_1"
+        Me.TB6_1.ReadOnly = True
+        Me.TB6_1.Size = New System.Drawing.Size(71, 20)
+        Me.TB6_1.TabIndex = 19
+        Me.TB6_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TB5_1
         '
-        Me.TB5_1.Location = New System.Drawing.Point(496, 47)
+        Me.TB5_1.Location = New System.Drawing.Point(424, 47)
         Me.TB5_1.Name = "TB5_1"
         Me.TB5_1.ReadOnly = True
-        Me.TB5_1.Size = New System.Drawing.Size(100, 20)
+        Me.TB5_1.Size = New System.Drawing.Size(71, 20)
         Me.TB5_1.TabIndex = 19
         Me.TB5_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TB4_1
         '
-        Me.TB4_1.Location = New System.Drawing.Point(379, 47)
+        Me.TB4_1.Location = New System.Drawing.Point(320, 47)
         Me.TB4_1.Name = "TB4_1"
         Me.TB4_1.ReadOnly = True
-        Me.TB4_1.Size = New System.Drawing.Size(100, 20)
+        Me.TB4_1.Size = New System.Drawing.Size(71, 20)
         Me.TB4_1.TabIndex = 19
         Me.TB4_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB8_8
+        '
+        Me.TB8_8.Location = New System.Drawing.Point(12, 213)
+        Me.TB8_8.Name = "TB8_8"
+        Me.TB8_8.ReadOnly = True
+        Me.TB8_8.Size = New System.Drawing.Size(71, 20)
+        Me.TB8_8.TabIndex = 47
+        Me.TB8_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TB7_8
+        '
+        Me.TB7_8.Location = New System.Drawing.Point(11, 214)
+        Me.TB7_8.Name = "TB7_8"
+        Me.TB7_8.ReadOnly = True
+        Me.TB7_8.Size = New System.Drawing.Size(71, 20)
+        Me.TB7_8.TabIndex = 47
+        Me.TB7_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TB6_8
+        '
+        Me.TB6_8.Location = New System.Drawing.Point(10, 212)
+        Me.TB6_8.Name = "TB6_8"
+        Me.TB6_8.ReadOnly = True
+        Me.TB6_8.Size = New System.Drawing.Size(71, 20)
+        Me.TB6_8.TabIndex = 47
+        Me.TB6_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TextBox41
         '
-        Me.TextBox41.Location = New System.Drawing.Point(132, 73)
+        Me.TextBox41.Location = New System.Drawing.Point(113, 73)
         Me.TextBox41.Name = "TextBox41"
         Me.TextBox41.ReadOnly = True
-        Me.TextBox41.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox41.Size = New System.Drawing.Size(71, 20)
         Me.TextBox41.TabIndex = 20
         Me.TextBox41.Text = "T"
         Me.TextBox41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB8_2
+        '
+        Me.TB8_2.Location = New System.Drawing.Point(12, 57)
+        Me.TB8_2.Name = "TB8_2"
+        Me.TB8_2.ReadOnly = True
+        Me.TB8_2.Size = New System.Drawing.Size(71, 20)
+        Me.TB8_2.TabIndex = 23
+        Me.TB8_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TB5_8
         '
-        Me.TB5_8.Location = New System.Drawing.Point(496, 229)
+        Me.TB5_8.Location = New System.Drawing.Point(424, 229)
         Me.TB5_8.Name = "TB5_8"
         Me.TB5_8.ReadOnly = True
-        Me.TB5_8.Size = New System.Drawing.Size(100, 20)
+        Me.TB5_8.Size = New System.Drawing.Size(71, 20)
         Me.TB5_8.TabIndex = 47
         Me.TB5_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB7_2
+        '
+        Me.TB7_2.Location = New System.Drawing.Point(11, 58)
+        Me.TB7_2.Name = "TB7_2"
+        Me.TB7_2.ReadOnly = True
+        Me.TB7_2.Size = New System.Drawing.Size(71, 20)
+        Me.TB7_2.TabIndex = 23
+        Me.TB7_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TB6_2
+        '
+        Me.TB6_2.Location = New System.Drawing.Point(10, 56)
+        Me.TB6_2.Name = "TB6_2"
+        Me.TB6_2.ReadOnly = True
+        Me.TB6_2.Size = New System.Drawing.Size(71, 20)
+        Me.TB6_2.TabIndex = 23
+        Me.TB6_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TextBox40
         '
-        Me.TextBox40.Location = New System.Drawing.Point(253, 73)
+        Me.TextBox40.Location = New System.Drawing.Point(218, 73)
         Me.TextBox40.Name = "TextBox40"
         Me.TextBox40.ReadOnly = True
-        Me.TextBox40.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox40.Size = New System.Drawing.Size(71, 20)
         Me.TextBox40.TabIndex = 21
         Me.TextBox40.Text = "F"
         Me.TextBox40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TB5_2
         '
-        Me.TB5_2.Location = New System.Drawing.Point(496, 73)
+        Me.TB5_2.Location = New System.Drawing.Point(424, 73)
         Me.TB5_2.Name = "TB5_2"
         Me.TB5_2.ReadOnly = True
-        Me.TB5_2.Size = New System.Drawing.Size(100, 20)
+        Me.TB5_2.Size = New System.Drawing.Size(71, 20)
         Me.TB5_2.TabIndex = 23
         Me.TB5_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TB4_2
         '
-        Me.TB4_2.Location = New System.Drawing.Point(379, 73)
+        Me.TB4_2.Location = New System.Drawing.Point(320, 73)
         Me.TB4_2.Name = "TB4_2"
         Me.TB4_2.ReadOnly = True
-        Me.TB4_2.Size = New System.Drawing.Size(100, 20)
+        Me.TB4_2.Size = New System.Drawing.Size(71, 20)
         Me.TB4_2.TabIndex = 23
         Me.TB4_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB8_3
+        '
+        Me.TB8_3.Location = New System.Drawing.Point(12, 83)
+        Me.TB8_3.Name = "TB8_3"
+        Me.TB8_3.ReadOnly = True
+        Me.TB8_3.Size = New System.Drawing.Size(71, 20)
+        Me.TB8_3.TabIndex = 27
+        Me.TB8_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TextBox38
         '
-        Me.TextBox38.Location = New System.Drawing.Point(132, 99)
+        Me.TextBox38.Location = New System.Drawing.Point(113, 99)
         Me.TextBox38.Name = "TextBox38"
         Me.TextBox38.ReadOnly = True
-        Me.TextBox38.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox38.Size = New System.Drawing.Size(71, 20)
         Me.TextBox38.TabIndex = 24
         Me.TextBox38.Text = "F"
         Me.TextBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB7_3
+        '
+        Me.TB7_3.Location = New System.Drawing.Point(11, 84)
+        Me.TB7_3.Name = "TB7_3"
+        Me.TB7_3.ReadOnly = True
+        Me.TB7_3.Size = New System.Drawing.Size(71, 20)
+        Me.TB7_3.TabIndex = 27
+        Me.TB7_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TB6_3
+        '
+        Me.TB6_3.Location = New System.Drawing.Point(10, 82)
+        Me.TB6_3.Name = "TB6_3"
+        Me.TB6_3.ReadOnly = True
+        Me.TB6_3.Size = New System.Drawing.Size(71, 20)
+        Me.TB6_3.TabIndex = 27
+        Me.TB6_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TextBox37
         '
-        Me.TextBox37.Location = New System.Drawing.Point(253, 99)
+        Me.TextBox37.Location = New System.Drawing.Point(218, 99)
         Me.TextBox37.Name = "TextBox37"
         Me.TextBox37.ReadOnly = True
-        Me.TextBox37.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox37.Size = New System.Drawing.Size(71, 20)
         Me.TextBox37.TabIndex = 25
         Me.TextBox37.Text = "T"
         Me.TextBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TB5_3
         '
-        Me.TB5_3.Location = New System.Drawing.Point(496, 99)
+        Me.TB5_3.Location = New System.Drawing.Point(424, 99)
         Me.TB5_3.Name = "TB5_3"
         Me.TB5_3.ReadOnly = True
-        Me.TB5_3.Size = New System.Drawing.Size(100, 20)
+        Me.TB5_3.Size = New System.Drawing.Size(71, 20)
         Me.TB5_3.TabIndex = 27
         Me.TB5_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TB4_3
         '
-        Me.TB4_3.Location = New System.Drawing.Point(379, 99)
+        Me.TB4_3.Location = New System.Drawing.Point(320, 99)
         Me.TB4_3.Name = "TB4_3"
         Me.TB4_3.ReadOnly = True
-        Me.TB4_3.Size = New System.Drawing.Size(100, 20)
+        Me.TB4_3.Size = New System.Drawing.Size(71, 20)
         Me.TB4_3.TabIndex = 27
         Me.TB4_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB8_4
+        '
+        Me.TB8_4.Location = New System.Drawing.Point(12, 109)
+        Me.TB8_4.Name = "TB8_4"
+        Me.TB8_4.ReadOnly = True
+        Me.TB8_4.Size = New System.Drawing.Size(71, 20)
+        Me.TB8_4.TabIndex = 31
+        Me.TB8_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TextBox35
         '
-        Me.TextBox35.Location = New System.Drawing.Point(132, 125)
+        Me.TextBox35.Location = New System.Drawing.Point(113, 125)
         Me.TextBox35.Name = "TextBox35"
         Me.TextBox35.ReadOnly = True
-        Me.TextBox35.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox35.Size = New System.Drawing.Size(71, 20)
         Me.TextBox35.TabIndex = 28
         Me.TextBox35.Text = "F"
         Me.TextBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB7_4
+        '
+        Me.TB7_4.Location = New System.Drawing.Point(11, 110)
+        Me.TB7_4.Name = "TB7_4"
+        Me.TB7_4.ReadOnly = True
+        Me.TB7_4.Size = New System.Drawing.Size(71, 20)
+        Me.TB7_4.TabIndex = 31
+        Me.TB7_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TB6_4
+        '
+        Me.TB6_4.Location = New System.Drawing.Point(10, 108)
+        Me.TB6_4.Name = "TB6_4"
+        Me.TB6_4.ReadOnly = True
+        Me.TB6_4.Size = New System.Drawing.Size(71, 20)
+        Me.TB6_4.TabIndex = 31
+        Me.TB6_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TB8_7
+        '
+        Me.TB8_7.Location = New System.Drawing.Point(12, 187)
+        Me.TB8_7.Name = "TB8_7"
+        Me.TB8_7.ReadOnly = True
+        Me.TB8_7.Size = New System.Drawing.Size(71, 20)
+        Me.TB8_7.TabIndex = 43
+        Me.TB8_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TextBox34
         '
-        Me.TextBox34.Location = New System.Drawing.Point(253, 125)
+        Me.TextBox34.Location = New System.Drawing.Point(218, 125)
         Me.TextBox34.Name = "TextBox34"
         Me.TextBox34.ReadOnly = True
-        Me.TextBox34.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox34.Size = New System.Drawing.Size(71, 20)
         Me.TextBox34.TabIndex = 29
         Me.TextBox34.Text = "F"
         Me.TextBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB7_7
+        '
+        Me.TB7_7.Location = New System.Drawing.Point(11, 188)
+        Me.TB7_7.Name = "TB7_7"
+        Me.TB7_7.ReadOnly = True
+        Me.TB7_7.Size = New System.Drawing.Size(71, 20)
+        Me.TB7_7.TabIndex = 43
+        Me.TB7_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TB5_4
         '
-        Me.TB5_4.Location = New System.Drawing.Point(496, 125)
+        Me.TB5_4.Location = New System.Drawing.Point(424, 125)
         Me.TB5_4.Name = "TB5_4"
         Me.TB5_4.ReadOnly = True
-        Me.TB5_4.Size = New System.Drawing.Size(100, 20)
+        Me.TB5_4.Size = New System.Drawing.Size(71, 20)
         Me.TB5_4.TabIndex = 31
         Me.TB5_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB6_7
+        '
+        Me.TB6_7.Location = New System.Drawing.Point(10, 186)
+        Me.TB6_7.Name = "TB6_7"
+        Me.TB6_7.ReadOnly = True
+        Me.TB6_7.Size = New System.Drawing.Size(71, 20)
+        Me.TB6_7.TabIndex = 43
+        Me.TB6_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TB8_5
+        '
+        Me.TB8_5.Location = New System.Drawing.Point(12, 135)
+        Me.TB8_5.Name = "TB8_5"
+        Me.TB8_5.ReadOnly = True
+        Me.TB8_5.Size = New System.Drawing.Size(71, 20)
+        Me.TB8_5.TabIndex = 35
+        Me.TB8_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TB7_5
+        '
+        Me.TB7_5.Location = New System.Drawing.Point(11, 136)
+        Me.TB7_5.Name = "TB7_5"
+        Me.TB7_5.ReadOnly = True
+        Me.TB7_5.Size = New System.Drawing.Size(71, 20)
+        Me.TB7_5.TabIndex = 35
+        Me.TB7_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TB5_7
         '
-        Me.TB5_7.Location = New System.Drawing.Point(496, 203)
+        Me.TB5_7.Location = New System.Drawing.Point(424, 203)
         Me.TB5_7.Name = "TB5_7"
         Me.TB5_7.ReadOnly = True
-        Me.TB5_7.Size = New System.Drawing.Size(100, 20)
+        Me.TB5_7.Size = New System.Drawing.Size(71, 20)
         Me.TB5_7.TabIndex = 43
         Me.TB5_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB6_5
+        '
+        Me.TB6_5.Location = New System.Drawing.Point(10, 134)
+        Me.TB6_5.Name = "TB6_5"
+        Me.TB6_5.ReadOnly = True
+        Me.TB6_5.Size = New System.Drawing.Size(71, 20)
+        Me.TB6_5.TabIndex = 35
+        Me.TB6_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TB4_4
         '
-        Me.TB4_4.Location = New System.Drawing.Point(379, 125)
+        Me.TB4_4.Location = New System.Drawing.Point(320, 125)
         Me.TB4_4.Name = "TB4_4"
         Me.TB4_4.ReadOnly = True
-        Me.TB4_4.Size = New System.Drawing.Size(100, 20)
+        Me.TB4_4.Size = New System.Drawing.Size(71, 20)
         Me.TB4_4.TabIndex = 31
         Me.TB4_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TB5_5
         '
-        Me.TB5_5.Location = New System.Drawing.Point(496, 151)
+        Me.TB5_5.Location = New System.Drawing.Point(424, 151)
         Me.TB5_5.Name = "TB5_5"
         Me.TB5_5.ReadOnly = True
-        Me.TB5_5.Size = New System.Drawing.Size(100, 20)
+        Me.TB5_5.Size = New System.Drawing.Size(71, 20)
         Me.TB5_5.TabIndex = 35
         Me.TB5_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TB8_6
+        '
+        Me.TB8_6.Location = New System.Drawing.Point(12, 161)
+        Me.TB8_6.Name = "TB8_6"
+        Me.TB8_6.ReadOnly = True
+        Me.TB8_6.Size = New System.Drawing.Size(71, 20)
+        Me.TB8_6.TabIndex = 39
+        Me.TB8_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TB7_6
+        '
+        Me.TB7_6.Location = New System.Drawing.Point(11, 162)
+        Me.TB7_6.Name = "TB7_6"
+        Me.TB7_6.ReadOnly = True
+        Me.TB7_6.Size = New System.Drawing.Size(71, 20)
+        Me.TB7_6.TabIndex = 39
+        Me.TB7_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TB6_6
+        '
+        Me.TB6_6.Location = New System.Drawing.Point(10, 160)
+        Me.TB6_6.Name = "TB6_6"
+        Me.TB6_6.ReadOnly = True
+        Me.TB6_6.Size = New System.Drawing.Size(71, 20)
+        Me.TB6_6.TabIndex = 39
+        Me.TB6_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TB5_6
         '
-        Me.TB5_6.Location = New System.Drawing.Point(496, 177)
+        Me.TB5_6.Location = New System.Drawing.Point(424, 177)
         Me.TB5_6.Name = "TB5_6"
         Me.TB5_6.ReadOnly = True
-        Me.TB5_6.Size = New System.Drawing.Size(100, 20)
+        Me.TB5_6.Size = New System.Drawing.Size(71, 20)
         Me.TB5_6.TabIndex = 39
         Me.TB5_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -991,6 +1270,57 @@ Partial Class Fandm1
         Me.BtnDelete.Text = "←"
         Me.BtnDelete.UseVisualStyleBackColor = True
         '
+        'PanelThreeVarSixthCol
+        '
+        Me.PanelThreeVarSixthCol.Controls.Add(Me.Label12)
+        Me.PanelThreeVarSixthCol.Controls.Add(Me.TB6_6)
+        Me.PanelThreeVarSixthCol.Controls.Add(Me.TB6_5)
+        Me.PanelThreeVarSixthCol.Controls.Add(Me.TB6_7)
+        Me.PanelThreeVarSixthCol.Controls.Add(Me.TB6_4)
+        Me.PanelThreeVarSixthCol.Controls.Add(Me.TB6_3)
+        Me.PanelThreeVarSixthCol.Controls.Add(Me.TB6_2)
+        Me.PanelThreeVarSixthCol.Controls.Add(Me.TB6_8)
+        Me.PanelThreeVarSixthCol.Controls.Add(Me.TB6_1)
+        Me.PanelThreeVarSixthCol.Location = New System.Drawing.Point(514, 17)
+        Me.PanelThreeVarSixthCol.Name = "PanelThreeVarSixthCol"
+        Me.PanelThreeVarSixthCol.Size = New System.Drawing.Size(92, 241)
+        Me.PanelThreeVarSixthCol.TabIndex = 56
+        Me.PanelThreeVarSixthCol.Visible = False
+        '
+        'PanelThreeVarSeventhCol
+        '
+        Me.PanelThreeVarSeventhCol.Controls.Add(Me.Label13)
+        Me.PanelThreeVarSeventhCol.Controls.Add(Me.TB7_6)
+        Me.PanelThreeVarSeventhCol.Controls.Add(Me.TB7_5)
+        Me.PanelThreeVarSeventhCol.Controls.Add(Me.TB7_7)
+        Me.PanelThreeVarSeventhCol.Controls.Add(Me.TB7_4)
+        Me.PanelThreeVarSeventhCol.Controls.Add(Me.TB7_3)
+        Me.PanelThreeVarSeventhCol.Controls.Add(Me.TB7_2)
+        Me.PanelThreeVarSeventhCol.Controls.Add(Me.TB7_8)
+        Me.PanelThreeVarSeventhCol.Controls.Add(Me.TB7_1)
+        Me.PanelThreeVarSeventhCol.Location = New System.Drawing.Point(612, 16)
+        Me.PanelThreeVarSeventhCol.Name = "PanelThreeVarSeventhCol"
+        Me.PanelThreeVarSeventhCol.Size = New System.Drawing.Size(92, 241)
+        Me.PanelThreeVarSeventhCol.TabIndex = 57
+        Me.PanelThreeVarSeventhCol.Visible = False
+        '
+        'PanelThreeVarEigthCol
+        '
+        Me.PanelThreeVarEigthCol.Controls.Add(Me.Label14)
+        Me.PanelThreeVarEigthCol.Controls.Add(Me.TB8_6)
+        Me.PanelThreeVarEigthCol.Controls.Add(Me.TB8_5)
+        Me.PanelThreeVarEigthCol.Controls.Add(Me.TB8_7)
+        Me.PanelThreeVarEigthCol.Controls.Add(Me.TB8_4)
+        Me.PanelThreeVarEigthCol.Controls.Add(Me.TB8_3)
+        Me.PanelThreeVarEigthCol.Controls.Add(Me.TB8_2)
+        Me.PanelThreeVarEigthCol.Controls.Add(Me.TB8_8)
+        Me.PanelThreeVarEigthCol.Controls.Add(Me.TB8_1)
+        Me.PanelThreeVarEigthCol.Location = New System.Drawing.Point(706, 17)
+        Me.PanelThreeVarEigthCol.Name = "PanelThreeVarEigthCol"
+        Me.PanelThreeVarEigthCol.Size = New System.Drawing.Size(92, 241)
+        Me.PanelThreeVarEigthCol.TabIndex = 57
+        Me.PanelThreeVarEigthCol.Visible = False
+        '
         'Fandm1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1020,6 +1350,12 @@ Partial Class Fandm1
         Me.PanelTwoVar.PerformLayout()
         Me.PanelTwoFifthColumn.ResumeLayout(False)
         Me.PanelTwoFifthColumn.PerformLayout()
+        Me.PanelThreeVarSixthCol.ResumeLayout(False)
+        Me.PanelThreeVarSixthCol.PerformLayout()
+        Me.PanelThreeVarSeventhCol.ResumeLayout(False)
+        Me.PanelThreeVarSeventhCol.PerformLayout()
+        Me.PanelThreeVarEigthCol.ResumeLayout(False)
+        Me.PanelThreeVarEigthCol.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1110,4 +1446,34 @@ Partial Class Fandm1
     Friend WithEvents BtnOpenPar As Button
     Friend WithEvents BtnClosePar As Button
     Friend WithEvents BtnDelete As Button
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents TB8_1 As TextBox
+    Friend WithEvents TB7_1 As TextBox
+    Friend WithEvents TB6_1 As TextBox
+    Friend WithEvents TB8_8 As TextBox
+    Friend WithEvents TB7_8 As TextBox
+    Friend WithEvents TB6_8 As TextBox
+    Friend WithEvents TB8_2 As TextBox
+    Friend WithEvents TB7_2 As TextBox
+    Friend WithEvents TB6_2 As TextBox
+    Friend WithEvents TB8_3 As TextBox
+    Friend WithEvents TB7_3 As TextBox
+    Friend WithEvents TB6_3 As TextBox
+    Friend WithEvents TB8_4 As TextBox
+    Friend WithEvents TB7_4 As TextBox
+    Friend WithEvents TB6_4 As TextBox
+    Friend WithEvents TB8_7 As TextBox
+    Friend WithEvents TB7_7 As TextBox
+    Friend WithEvents TB6_7 As TextBox
+    Friend WithEvents TB8_5 As TextBox
+    Friend WithEvents TB7_5 As TextBox
+    Friend WithEvents TB6_5 As TextBox
+    Friend WithEvents TB8_6 As TextBox
+    Friend WithEvents TB7_6 As TextBox
+    Friend WithEvents TB6_6 As TextBox
+    Friend WithEvents PanelThreeVarEigthCol As Panel
+    Friend WithEvents PanelThreeVarSeventhCol As Panel
+    Friend WithEvents PanelThreeVarSixthCol As Panel
 End Class
