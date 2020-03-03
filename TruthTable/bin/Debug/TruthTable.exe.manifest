@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TruthTable.exe" size="65024">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TruthTable.exe" size="67584">
       <assemblyIdentity name="TruthTable" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xb3EHGsK1a445s4Se1KKVrBGk/cZVQGw2/R/D4H/ipw=</dsig:DigestValue>
+        <dsig:DigestValue>JSfprCv8vX5Vn5oThFIufAM2VQql+faR3sohE/GL0b0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

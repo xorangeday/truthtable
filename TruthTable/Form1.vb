@@ -320,69 +320,174 @@
                     End If
                 End If
             ElseIf nctr = 2 Then
-                If Label1.Text.IndexOf("~") = 1 Then
-                    If Label1.Text.Substring(2, Label1.Text.Length - 2).IndexOf("~") = 2 Then '1st and 2nd negation
-                        Label2.Text = stringval(2)
-                        Label3.Text = stringval(5)
-                        Label9.Text = stringval(7)
-                        Label10.Text = stringval.Substring(0, 6)
-                        Label11.Text = stringval
-                        If stringval(3) = "^" Then
-                            SetFourthCol("F", "F", "F", "F", "T", "T", "F", "F")
-                            If stringval(6) = "^" Then
-                                SetFifthCol("F", "F", "F", "F", "F", "T", "F", "F")
+                If Label1.Text.IndexOf("~") = 1 Or Label1.Text.IndexOf("~") = 2 Then
+                    If Label1.Text.Substring(2, Label1.Text.Length - 2).IndexOf("~") = 2 Or Label1.Text.Substring(2, Label1.Text.Length - 2).IndexOf("~") = 3 Then '1st and 2nd negation
+                        If Label1.Text.IndexOf("(") = 4 Then
+                            'with 2nd and 3rd enclosed ~P^(~Q^R)
+                            Label2.Text = stringval(2)
+                            Label3.Text = stringval(6)
+                            Label9.Text = stringval(8)
+                            Label10.Text = "~" + stringval(2)
+                            Label11.Text = "~" + stringval(6)
+                            SetFourthCol("F", "F", "F", "F", "T", "T", "T", "T")
+                            SetFifthCol("F", "F", "T", "T", "T", "T", "F", "F")
+                            Label12.Text = stringval.Substring(4, 6)
+                            Label13.Text = stringval
+                            If stringval(7) = "^" Then
+                                SetSixthCol("F", "F", "T", "F", "F", "T", "F", "F")
+                                If stringval(3) = "^" Then
+                                    SetSeventhCol("F", "F", "F", "F", "F", "T", "F", "F")
+                                Else
+                                    SetSeventhCol("F", "F", "T", "F", "T", "T", "T", "T")
+                                End If
                             Else
-                                SetFifthCol("F", "T", "F", "T", "T", "T", "F", "T")
+                                SetSixthCol("T", "F", "T", "T", "T", "T", "F", "T")
+                                If stringval(3) = "^" Then
+                                    SetSeventhCol("F", "F", "F", "F", "T", "T", "F", "T")
+                                Else
+                                    SetSeventhCol("T", "F", "T", "T", "T", "T", "T", "T")
+                                End If
                             End If
                         Else
-                            SetFourthCol("F", "F", "T", "T", "T", "T", "T", "T")
-                            If stringval(6) = "^" Then
-                                SetFifthCol("F", "F", "T", "F", "F", "T", "F", "T")
+                            'with 3 variables enclosed (~P^~Q^R), with 1st and 2nd enclosed (~P^~Q)^R, no enclosed ~P^~Q^R
+                            stringval = stringval.Replace("(", "")
+                            stringval = stringval.Replace(")", "")
+                            Label2.Text = stringval(2)
+                            Label3.Text = stringval(5)
+                            Label9.Text = stringval(7)
+                            Label10.Text = "~" + stringval(2)
+                            Label11.Text = "~" + stringval(5)
+                            SetFourthCol("F", "F", "F", "F", "T", "T", "T", "T")
+                            SetFifthCol("F", "F", "T", "T", "T", "T", "F", "F")
+                            Label12.Text = stringval.Substring(1, 5)
+                            Label13.Text = stringval
+                            If stringval(3) = "^" Then
+                                SetSixthCol("F", "F", "F", "F", "T", "T", "F", "F")
+                                If stringval(6) = "^" Then
+                                    SetSeventhCol("F", "F", "F", "F", "F", "T", "F", "F")
+                                Else
+                                    SetSeventhCol("F", "T", "F", "T", "T", "T", "F", "T")
+                                End If
                             Else
-                                SetFifthCol("T", "F", "T", "T", "T", "T", "T", "T")
+                                SetSixthCol("F", "F", "T", "T", "T", "T", "T", "T")
+                                If stringval(6) = "^" Then
+                                    SetSeventhCol("F", "F", "T", "F", "F", "T", "F", "T")
+                                Else
+                                    SetSeventhCol("T", "F", "T", "T", "T", "T", "T", "T")
+                                End If
                             End If
                         End If
                     Else '1st and 3rd negation
-                        Label2.Text = stringval(2)
-                        Label3.Text = stringval(4)
-                        Label9.Text = stringval(7)
-                        Label10.Text = stringval.Substring(0, 5)
-                        Label11.Text = stringval
-                        If stringval(3) = "^" Then
-                            SetFourthCol("F", "F", "F", "F", "F", "F", "T", "T")
-                            If stringval(5) = "^" Then
-                                SetFifthCol("F", "F", "F", "F", "F", "F", "T", "F")
+                        If Label1.Text.IndexOf("(") = 4 Then
+                            'with 2nd and 3rd enclosed ~P^(Q^~R)
+                            Label2.Text = stringval(2)
+                            Label3.Text = stringval(5)
+                            Label9.Text = stringval(8)
+                            Label10.Text = "~" + stringval(2)
+                            Label11.Text = "~" + stringval(8)
+                            SetFourthCol("F", "F", "F", "F", "T", "T", "T", "T")
+                            SetFifthCol("F", "T", "F", "T", "T", "F", "T", "F")
+                            Label12.Text = stringval.Substring(4, 6)
+                            Label13.Text = stringval
+                            If stringval(6) = "^" Then
+                                SetSixthCol("F", "T", "F", "F", "F", "F", "T", "F")
+                                If stringval(3) = "^" Then
+                                    SetSeventhCol("F", "F", "F", "F", "F", "F", "T", "F")
+                                Else
+                                    SetSeventhCol("F", "T", "F", "F", "T", "T", "T", "T")
+                                End If
                             Else
-                                SetFifthCol("F", "T", "F", "T", "T", "F", "T", "T")
+                                SetSixthCol("T", "T", "F", "F", "T", "F", "T", "T")
+                                If stringval(3) = "^" Then
+                                    SetSeventhCol("F", "F", "F", "F", "T", "F", "T", "T")
+                                Else
+                                    SetSeventhCol("T", "T", "F", "F", "T", "T", "T", "T")
+                                End If
                             End If
                         Else
-                            SetFourthCol("T", "T", "F", "F", "T", "T", "T", "T")
-                            If stringval(5) = "^" Then
-                                SetFifthCol("F", "T", "F", "F", "T", "F", "T", "F")
+                            'with 3 variables enclosed (~P^Q^~R), with 1st and 2nd enclosed (~P^Q)^~R, no enclosed ~P^Q^~R
+                            stringval = stringval.Replace("(", "")
+                            stringval = stringval.Replace(")", "")
+                            Label2.Text = stringval(2)
+                            Label3.Text = stringval(4)
+                            Label9.Text = stringval(7)
+                            Label10.Text = "~" + stringval(2)
+                            Label11.Text = "~" + stringval(7)
+                            SetFourthCol("F", "F", "F", "F", "T", "T", "T", "T")
+                            SetFifthCol("F", "T", "F", "T", "T", "F", "T", "F")
+                            Label12.Text = stringval.Substring(1, 4)
+                            Label13.Text = stringval
+                            If stringval(3) = "^" Then
+                                SetSixthCol("F", "F", "F", "F", "F", "F", "T", "T")
+                                If stringval(5) = "^" Then
+                                    SetSeventhCol("F", "F", "F", "F", "F", "F", "T", "F")
+                                Else
+                                    SetSeventhCol("F", "T", "F", "T", "T", "F", "T", "T")
+                                End If
                             Else
-                                SetFifthCol("T", "T", "F", "F", "T", "T", "T", "T")
+                                SetSixthCol("T", "T", "F", "F", "T", "T", "T", "T")
+                                If stringval(5) = "^" Then
+                                    SetSeventhCol("F", "T", "F", "F", "T", "F", "T", "F")
+                                Else
+                                    SetSeventhCol("T", "T", "F", "F", "T", "T", "T", "T")
+                                End If
                             End If
                         End If
                     End If
                 Else '2nd and 3rd negation
-                    Label2.Text = stringval(1)
-                    Label3.Text = stringval(4)
-                    Label9.Text = stringval(7)
-                    Label10.Text = stringval.Substring(0, 5)
-                    Label11.Text = stringval
-                    If stringval(2) = "^" Then
-                        SetFourthCol("F", "F", "F", "T", "F", "F", "F", "F")
-                        If stringval(5) = "^" Then
-                            SetFifthCol("F", "F", "F", "T", "F", "F", "F", "F")
+                    If Label1.Text.IndexOf("(") = 3 Then
+                        'with 2nd and 3rd enclosed P^(~Q^~R)
+                        Label2.Text = stringval(1)
+                        Label3.Text = stringval(5)
+                        Label9.Text = stringval(8)
+                        Label10.Text = "~" + stringval(5)
+                        Label11.Text = "~" + stringval(8)
+                        SetFourthCol("F", "F", "T", "T", "T", "T", "F", "F")
+                        SetFifthCol("F", "T", "F", "T", "T", "F", "T", "F")
+                        Label12.Text = stringval.Substring(3, 7)
+                        Label13.Text = stringval
+                        If stringval(6) = "^" Then
+                            SetSixthCol("F", "F", "F", "T", "T", "F", "F", "F")
+                            If stringval(2) = "^" Then
+                                SetSeventhCol("F", "F", "F", "T", "F", "F", "F", "F")
+                            Else
+                                SetSeventhCol("T", "T", "T", "T", "T", "F", "F", "F")
+                            End If
                         Else
-                            SetFifthCol("F", "T", "F", "T", "T", "F", "T", "F")
+                            SetSixthCol("F", "T", "T", "T", "T", "T", "T", "F")
+                            If stringval(2) = "^" Then
+                                SetSeventhCol("F", "T", "T", "T", "F", "F", "F", "F")
+                            Else
+                                SetSeventhCol("T", "T", "T", "T", "T", "T", "T", "F")
+                            End If
                         End If
                     Else
-                        SetFourthCol("T", "T", "T", "T", "T", "T", "F", "F")
-                        If stringval(5) = "^" Then
-                            SetFifthCol("F", "T", "F", "T", "T", "F", "F", "F")
+                        'with 3 variables enclosed (P^~Q^~R), with 1st and 2nd enclosed (P^~Q)^~R, no enclosed P^~Q^~R
+                        stringval = stringval.Replace("(", "")
+                        stringval = stringval.Replace(")", "")
+                        Label2.Text = stringval(1)
+                        Label3.Text = stringval(4)
+                        Label9.Text = stringval(7)
+                        Label10.Text = "~" + stringval(4)
+                        Label11.Text = "~" + stringval(7)
+                        SetFourthCol("F", "F", "T", "T", "T", "T", "F", "F")
+                        SetFifthCol("F", "T", "F", "T", "T", "F", "T", "F")
+                        Label12.Text = stringval.Substring(1, 4)
+                        Label13.Text = stringval
+                        If stringval(2) = "^" Then
+                            SetSixthCol("F", "F", "T", "T", "F", "F", "F", "F")
+                            If stringval(5) = "^" Then
+                                SetSeventhCol("F", "F", "F", "T", "F", "F", "F", "F")
+                            Else
+                                SetSeventhCol("F", "T", "T", "T", "T", "F", "T", "F")
+                            End If
                         Else
-                            SetFifthCol("T", "T", "T", "T", "T", "T", "T", "F")
+                            SetSixthCol("T", "T", "T", "T", "T", "T", "F", "F")
+                            If stringval(5) = "^" Then
+                                SetSeventhCol("F", "T", "F", "T", "T", "F", "F", "F")
+                            Else
+                                SetSeventhCol("T", "T", "T", "T", "T", "T", "T", "F")
+                            End If
                         End If
                     End If
                 End If
